@@ -3054,13 +3054,14 @@ $mma-messages-date-badge: "stable" !default;
 .mm-site_myoverview {
   mm-course-list-progress .card {
     margin-top: 0;
+	  
 
     h5 {
       margin-left: 10px;
     }
     .list.block .item {
       border-top: $item-border-width solid $item-light-border;
-      border-bottom: $item-border-width solid $item-light-border;
+      border-bottom: $item-border-width solid #0CAD9D!important;
     }
     .list.block:last-child .item {
       border-bottom: 0;
