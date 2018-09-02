@@ -3044,6 +3044,7 @@ $mma-messages-date-badge: "stable" !default;
 
 .mm-timelinesort {
   float: right;
+  border-bottom: #0CAD9D;
 }
 
 .mm-timelinetitle {
@@ -3061,7 +3062,7 @@ $mma-messages-date-badge: "stable" !default;
     }
     .list.block .item {
       border-top: $item-border-width solid $item-light-border;
-      border-bottom: $item-border-width solid #0CAD9D!important;
+      border-bottom: $item-border-width $item-light-border;
     }
     .list.block:last-child .item {
       border-bottom: 0;
